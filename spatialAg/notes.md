@@ -1,6 +1,5 @@
-This paper was originally written with Dr. D'Souza and Dr. Lacombe. 
+This paper was originally written with Dr. Gerard D'Souza and Dr. Donald Lacombe. 
 Make sure to include them as authors. 
-
 
 # Data Overview
 We need to pull county-level data from nass quick stats 2.0 for the following items: 
