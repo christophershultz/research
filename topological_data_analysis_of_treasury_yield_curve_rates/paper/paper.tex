@@ -3,6 +3,7 @@
 \usepackage[a4paper,bindingoffset=0.2in,%
 left=1in,right=1in,top=1in,bottom=1in,%
 footskip=.25in]{geometry}
+\usepackage{hyperref}
 %opening
 \title{Topological Data Analysis of Treasury Yield Curve Rates}
 \author{Christopher Shultz}
@@ -13,7 +14,7 @@ footskip=.25in]{geometry}
 
 \begin{abstract}
 \noindent
-We explore the use of Topological Data Analysis (TDA) to study the evolution of US Treasury Yield Curve Rates from 2015 - 2020. We particularly focus on the use of TDA to understand the shape and structure of our multidimensional rates series and whether useful inference can be derived from topological tools.
+We explore the use of Topological Data Analysis (TDA) to study the evolution of US Treasury Yield Curve Rates from 2015 - 2020. We particularly focus on the use of TDA to understand the shape and structure of our multidimensional rates series and whether useful economic inference can be derived from topological tools.
 
 \end{abstract}
 
@@ -22,19 +23,21 @@ We explore the use of Topological Data Analysis (TDA) to study the evolution of 
 Topological Data Analysis (TDA) is an emerging multidisciplinary field that uses tools from topology, statistics, and scientific computing to extract insights about complex data. Many existing papers introduce the technique to an unfamiliar reader \cite{bubenik_2015, chazal_2017, munch_2017, wasserman_2018}. From a practical perspective, TDA can be used primarily to explore the structure of multidimensional data with regard to shape and connectivity. \\
 
 % WHERE HAS IT BEEN USED
-TDA has shown significant promise in a variety of areas, including cosmology \cite{chen_et_al_2015, van_de_weygaert_et_al_2010, van_de_weygaert_et_al_2011, sousbie_2011}, image analysis \cite{bonis_et_al_2016, li_et_al_2014, carriere_et_al_2015, singh_et_al_2014, adcock_et_al_2014}, finance \cite{gidea_katz_2018}, and neuroscience \cite{arai_et_al_2014, babichev_dabaghian_2016, basso_et_al_2016, bendich_et_al_2016}. Across all of its prior uses, the general theme of extracting information about the shape and structure of complex multidimensional data persists. \\
+TDA has shown significant promise in a variety of fields, including cosmology \cite{chen_et_al_2015, van_de_weygaert_et_al_2010, van_de_weygaert_et_al_2011, sousbie_2011}, image analysis \cite{bonis_et_al_2016, li_et_al_2014, carriere_et_al_2015, singh_et_al_2014, adcock_et_al_2014}, finance \cite{gidea_katz_2018, gidea_2016}, and neuroscience \cite{arai_et_al_2014, babichev_dabaghian_2016, basso_et_al_2016, bendich_et_al_2016}, among many others. This paper does not attempt to present a comprehensive overview of all existing applications of TDA in the scientific literature. However, across all examined papers, the primary theme involves the extraction of insights about the shape and structure of complex multidimensional datasets. \\
 
 %WHAT DO I AIM TO USE IT FOR? 
-With this paper, I aim to demonstrate the utility of TDA for exploring economic and financial questions, with a specific focus on treasury yield curve rates. A similar exploration takes place in \cite{gidea_katz_2018} with attention to the equity markets, and we follow their example in our study of treasury rates. \\
+With this paper, I aim to demonstrate the utility of TDA for exploring economic and financial questions, with a specific focus on treasury yield curve rates. A similar exploration takes place in \cite{gidea_katz_2018} with attention to the equity markets, and we follow their example in our study of rates. Their findings are particularly interesting as they present one of few existing analyses utilizing TDA to explore economic and financial research. Gidea and Katz find a strong rising trend for trading days prior to financial downturns, which implies that TDA may be useful as a new econometric analysis to complement traditional methods. \\
 
 % WHY SHOULD YOU CARE? 
+This analysis is meaningful for two main reasons. First, it is (to our knowledge) the first implementation of TDA to examine the shape and structure of treasury yield curve rates. Second, it provides an introduction of TDA to the economics/finance community, who may not have been previously exposed. Given its utilization across a wide number of fields and the increasing complexity of economic data, TDA has the potential to add significant value to researchers in economics and finance. \\
 
-% HOW DO WE DO THIS AND WHAT DID WE LEARN? WHY DOES THIS MATTER? 
+To complete our analysis, we utilize daily treasury yield curve rates data from 2015 - 2020 across multiple maturity periods. \textbf{\textit{description of method here}. \textit{description of results here}. \textit{description of why this matters here}}. \\
 
 % PAPER OUTLINE
+The remainder of this paper is structured as follows: section \ref{tda} describes the mathematical and theoretical details of TDA, including a detailed view of some existing applications; section \ref{yield} provides a summary of the existing literature on yield curve rates and the methodologies that have been used to date. Sections \ref{meth} and \ref{data} explore our methodology and dataset, respectively, providing a detailed outline of the analysis we undertake and the nuances of the underlying dataset. Finally, sections \ref{res} and \ref{conc} present our results, conclusions, and thoughts on future research. \\
 
-\section{Background of TDA}
-
+\section{Topological Data Analysis}
+\label{tda}
 % HOW DOES TDA WORK? WHAT IS IT AND WHAT ARE ITS MATH? 
 
 % RELEVANT PROPERTIES
@@ -43,7 +46,8 @@ With this paper, I aim to demonstrate the utility of TDA for exploring economic 
 
 % PROS / CONS of USING TDA
  
-\section{Background of Treasury Curve Yield Rates} 
+\section{Treasury Yield Curve Rates} 
+\label{yield}
 
 % WHAT DO WE NEED TO SHARE ABOUT TREASURY CURVE YIELD RATES? 
 % WHAT ARE THEY AND WHAT DO THEY MEAN
@@ -53,13 +57,15 @@ With this paper, I aim to demonstrate the utility of TDA for exploring economic 
 
 % HAS TDA EVER BEEN USED? 
 
-\section{Methodological Description and Simulation} 
+\section{Methodology} 
+\label{meth}
 
 % DETAILS OF THE METHODOLOGY / PIPELINE USED IN THIS PAPER
 
 % WHAT SHOULD THIS HELP US DO? 
 
-\section{Data Description}
+\section{Data}
+\label{data}
 
 % DESCRIPTIVE STATS
 
@@ -70,6 +76,7 @@ With this paper, I aim to demonstrate the utility of TDA for exploring economic 
 % TIME SERIES FEATURES: AUTOCORRELATION, STATIONARITY, ETC. 
 
 \section{Results}
+\label{res}
 
 % DESCRIPTION OF A WALKTHROUGH OF THE PIPELINE PROCESS
 % DISCUSS FINDINGS ALONG THE WAY
@@ -77,6 +84,7 @@ With this paper, I aim to demonstrate the utility of TDA for exploring economic 
 % SUMMARY OF KEY FINDINGS WITH EVIDENCE
 
 \section{Conclusion}
+\label{conc}
 
 % WHAT DID WE LEARN? 
 
@@ -89,8 +97,6 @@ With this paper, I aim to demonstrate the utility of TDA for exploring economic 
 \bibliography{refs}
 
 \end{document}
-
-
 
 
 % \textbf{Data Source}: https://www.treasury.gov/resource-center/data-chart-center/interest-rates/pages/textview.aspx?data=yield

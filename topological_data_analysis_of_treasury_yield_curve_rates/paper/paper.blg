@@ -158,6 +158,7 @@ while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "Chen, Y. Ho, S., Freeman, P., Genovese, C., and Wasserman, L." for entry chen_et_al_2015
 while executing---line 1090 of file plain.bst
 Warning--empty journal in chen_et_al_2015
+Warning--empty journal in gidea_2016
 Warning--empty journal in gidea_katz_2018
 Name 1 in "Li, C., Ovsjanikov, M., and Chazal, F." has a comma at the end for entry li_et_al_2014
 while executing---line 1090 of file plain.bst
@@ -216,45 +217,45 @@ Too many commas in name 1 of "Van de Weygaert, R., Vegter, G., Edelsbrunner, H.,
 while executing---line 1090 of file plain.bst
 Warning--empty journal in van_de_weygaert_et_al_2011
 Warning--empty journal in wasserman_2018
-You've used 18 entries,
+You've used 19 entries,
             2118 wiz_defined-function locations,
-            585 strings with 6366 characters,
-and the built_in function-call counts, 5200 in all, are:
-= -- 497
-> -- 210
+            589 strings with 6490 characters,
+and the built_in function-call counts, 5407 in all, are:
+= -- 517
+> -- 217
 < -- 0
-+ -- 86
-- -- 64
-* -- 330
-:= -- 881
-add.period$ -- 51
-call.type$ -- 18
-change.case$ -- 86
++ -- 89
+- -- 66
+* -- 339
+:= -- 920
+add.period$ -- 54
+call.type$ -- 19
+change.case$ -- 90
 chr.to.int$ -- 0
-cite$ -- 33
-duplicate$ -- 185
-empty$ -- 441
-format.name$ -- 64
-if$ -- 1079
+cite$ -- 35
+duplicate$ -- 195
+empty$ -- 458
+format.name$ -- 66
+if$ -- 1120
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 15
-newline$ -- 90
-num.names$ -- 36
-pop$ -- 101
+int.to.str$ -- 19
+missing$ -- 16
+newline$ -- 95
+num.names$ -- 38
+pop$ -- 105
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 71
 quote$ -- 0
-skip$ -- 143
+skip$ -- 151
 stack$ -- 0
-substring$ -- 367
+substring$ -- 372
 swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
-warning$ -- 15
-while$ -- 50
-width$ -- 20
-write$ -- 176
+type$ -- 76
+warning$ -- 16
+while$ -- 52
+width$ -- 21
+write$ -- 186
 (There were 96 error messages)
