@@ -6,6 +6,11 @@ footskip=.25in]{geometry}
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{amssymb}
+\usepackage{pgfplots}
+\usepackage{layouts}
+\usepackage{float}
+\usepackage[skip=0pt]{caption}
+
 %opening
 \title{Topological Data Analysis of Treasury Yield Curve Rates}
 \author{Christopher Shultz}
@@ -21,6 +26,7 @@ We explore the use of Topological Data Analysis (TDA) to study the evolution of 
 \end{abstract}
 
 \section{Introduction}
+
 % WHAT IS TDA
 Topological Data Analysis (TDA) is an emerging multidisciplinary field that uses tools from topology, statistics, and scientific computing to extract insights about complex data. Many existing papers introduce the technique to an unfamiliar reader \cite{bubenik_2015, chazal_2017, munch_2017, wasserman_2018}. From a practical perspective, TDA can be used primarily to explore the structure of multidimensional data with regard to shape and connectivity. \\
 
@@ -84,14 +90,13 @@ The standard topological descriptors are the barcode and the persistence diagram
 \label{data}
 
 % DESCRIPTIVE STATS
-The dataset analyzed in this study was retrieved from the US Treasury \footnote{https://www.treasury.gov/resource-center/data-chart-center/interest-rates} and contains daily yield curve rates data from January 2, 2015 to December 31, 2020 for a number of different maturities: 1 mo, 3 mo, 6 mo, 1 year, 2 yr, 3 yr, 5 yr, 7 yr, 10 yr, 20 yr, and 30 yr. \\
-
-The time series are visualized below in Figure %\ref{fig:linePlotRates}
+The dataset analyzed in this study was retrieved from the US Treasury \footnote{https://www.treasury.gov/resource-center/data-chart-center/interest-rates} and contains daily yield curve rates data from January 2, 2015 to December 31, 2020 for a number of different maturities: 1 mo, 3 mo, 6 mo, 1 year, 2 yr, 3 yr, 5 yr, 7 yr, 10 yr, 20 yr, and 30 yr. The time series are visualized below in Figure \ref{fig:linePlotRates}
 , with our shortest and longest maturities highlighted. 
 
-\begin{figure}[]
+\begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.35]{C:/Users/cshul/Desktop/research/topological\_data\_analysis\_of\_treasury\_yield\_curve\_rates/data/treasuryRatesVis.png}
+	\resizebox{0.5\textwidth}{!}{\input{C:/Users/cshul/Desktop/research/topolRate/data/treasuryRatesVis.pgf}}
+	\caption{Treasury Yield Curve Rates 2015-2020}
 	\label{fig:linePlotRates}
 \end{figure}
 
