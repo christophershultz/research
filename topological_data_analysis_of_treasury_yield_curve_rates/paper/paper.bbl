@@ -20,6 +20,11 @@ Arai~M. Basso, E. and Y.~Dabaghian.
 \newblock Gamma synchronization of the hippocampal spatial map - topological
   model, 2016.
 
+\bibitem{basu_and_dlotko_2020}
+D.~Basu and P.~Dlotko.
+\newblock The four seasons of commodity futures: insights from topological data
+  analysis, 2019.
+
 \bibitem{bendich_et_al_2016}
 Marron J. Miller E. Pieloch~A. Bendich, P. and S.~Skwerer.
 \newblock Persistent homology analysis of brain artery trees.
@@ -46,10 +51,20 @@ F.~Chazal and B.~Michel.
   practical aspects for data scientists, 2017.
 
 \bibitem{chen_et_al_2015}
-S.~Freeman P. Genovese~C. Chen, Y.~Ho and L.~Wasserman.
+Y.~Chen, S.~Ho, P.~Freeman, C.~Genovese, and L.~Wasserman.
 \newblock Cosmic web reconstruction through density ridges: method and
   algorithms.
 \newblock 454:1140--1156, 2015.
+
+\bibitem{van_de_weygaert_et_al_2010}
+R.~Van de~Weygaert, E.~Platen, G~Vegter, B.~Eldering, and N.~Kruithof.
+\newblock Alpha shape topology of the cosmic web.
+\newblock New York: IEEE:224--234, 2010.
+
+\bibitem{dlotko_et_al_2019}
+Qiu~W. Dlotko, P. and S.~Rudkin.
+\newblock Financial ratios and stock returns reappraised through a topological
+  data analysis lens, 2019.
 
 \bibitem{gidea_2016}
 M.~Gidea.
@@ -63,15 +78,38 @@ M.~Gidea and Y.~Katz.
   crashes.
 \newblock 491:820--834, 2018.
 
+\bibitem{guo_et_al_2020}
+Xia S. An Q. Zhang X. Sun~W. Guo, H. and X.~Zhao.
+\newblock Empirical study of financial crises based on topological data
+  analysis.
+\newblock 558, 2020.
+
+\bibitem{kim_et_al_2020}
+Kim Y. Lee~G. Kim, W. and W.~Kook.
+\newblock Investigation of flash crash via topological data analysis.
+\newblock 2020.
+
 \bibitem{li_et_al_2014}
 Ovsjanikov~M. Li, C. and F.~Chazal.
 \newblock Persistence-based structural recognition.
 \newblock New York: IEEE:2003--2010, 2014.
 
+\bibitem{majumdar_laha_2020}
+S.~Majumdar and A.~Laha.
+\newblock Clustering and classification of time series using topological data
+  analysis with applications to finance.
+\newblock 162, 2020.
+
 \bibitem{munch_2017}
 E.~Munch.
 \newblock A user's guide to topological data analysis.
 \newblock 4(2):47--61, 2017.
+
+\bibitem{qiu_et_al_2020}
+Rudkin~S. Qiu, W. and P.~Dlotko.
+\newblock Refining understanding of corporate failure through a topological
+  data analysis mapping of altman's z-score model.
+\newblock 156, 2020.
 
 \bibitem{singh_et_al_2014}
 Couture H. Marron J. Perou~C. Singh, N. and M.~Niethammer.
@@ -84,13 +122,8 @@ T.~Sousbie.
   implementation.
 \newblock 414:350--383, 2011.
 
-\bibitem{van_de_weygaert_et_al_2010}
-Platen E. Vegter G. Eldering~B. Van~de Weygaert, R. and N.~Kruithof.
-\newblock Alpha shape topology of the cosmic web.
-\newblock New York: IEEE:224--234, 2010.
-
 \bibitem{van_de_weygaert_et_al_2011}
-Vegter G. Edelsbrunner H. Jones B. Pranav P. Gavrilova M. Tan~C. Van~de
+Vegter G. Edelsbrunner H. Jones B. Pranav P.-Gavrilova M. Tan~C. Van~de
   Weygaert, R. and M.~Mostafavi.
 \newblock Alpha, betti, and the megasparsec universe: on the topology of the
   cosmic web.

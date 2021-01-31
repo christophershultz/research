@@ -2,14 +2,3 @@ TO DO
 
 ADD THE BELOW SOURCES TO THE LIST OF PAPERS THAT ARE IN FINANCE. GO INTO
 DETAIL ON A FEW OF THEM AS WELL AS GIDEA'S PAPER. 
-
-% https://arxiv.org/abs/1812.02987
-% https://ieeexplore.ieee.org/abstract/document/9309855
-% https://www.sciencedirect.com/science/article/abs/pii/S0166864120304673
-% https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3506780
-% https://arxiv.org/abs/1911.10297
-% https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1169943&dswid=-8895
-% https://link.springer.com/chapter/10.1007/978-3-319-42902-1_65
-% https://www.sciencedirect.com/science/article/abs/pii/S0957417420302992
-% https://www.sciencedirect.com/science/article/abs/pii/S095741742030676X
-% https://www.sciencedirect.com/science/article/abs/pii/S0378437120304994

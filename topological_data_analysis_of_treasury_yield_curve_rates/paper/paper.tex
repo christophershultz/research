@@ -4,6 +4,8 @@
 left=1in,right=1in,top=1in,bottom=1in,%
 footskip=.25in]{geometry}
 \usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amssymb}
 %opening
 \title{Topological Data Analysis of Treasury Yield Curve Rates}
 \author{Christopher Shultz}
@@ -23,7 +25,7 @@ We explore the use of Topological Data Analysis (TDA) to study the evolution of 
 Topological Data Analysis (TDA) is an emerging multidisciplinary field that uses tools from topology, statistics, and scientific computing to extract insights about complex data. Many existing papers introduce the technique to an unfamiliar reader \cite{bubenik_2015, chazal_2017, munch_2017, wasserman_2018}. From a practical perspective, TDA can be used primarily to explore the structure of multidimensional data with regard to shape and connectivity. \\
 
 % WHERE HAS IT BEEN USED
-TDA has shown significant promise in a variety of fields, including cosmology \cite{chen_et_al_2015, van_de_weygaert_et_al_2010, van_de_weygaert_et_al_2011, sousbie_2011}, image analysis \cite{bonis_et_al_2016, li_et_al_2014, carriere_et_al_2015, singh_et_al_2014, adcock_et_al_2014}, finance \cite{gidea_katz_2018, gidea_2016}, and neuroscience \cite{arai_et_al_2014, babichev_dabaghian_2016, basso_et_al_2016, bendich_et_al_2016}, among many others. This paper does not attempt to present a comprehensive overview of all existing applications of TDA in the scientific literature. However, across all examined papers, the primary theme involves the extraction of insights about the shape and structure of complex multidimensional datasets. \\
+TDA has shown significant promise in a variety of fields, including cosmology \cite{chen_et_al_2015, van_de_weygaert_et_al_2010, van_de_weygaert_et_al_2011, sousbie_2011}, image analysis \cite{bonis_et_al_2016, li_et_al_2014, carriere_et_al_2015, singh_et_al_2014, adcock_et_al_2014}, finance \cite{gidea_katz_2018, gidea_2016, guo_et_al_2020, majumdar_laha_2020, qiu_et_al_2020, basu_and_dlotko_2020, dlotko_et_al_2019, kim_et_al_2020}, and neuroscience \cite{arai_et_al_2014, babichev_dabaghian_2016, basso_et_al_2016, bendich_et_al_2016}, among many others. This paper does not attempt to present a comprehensive overview of all existing applications of TDA in the scientific literature. However, across all examined papers, the primary theme involves the extraction of insights about the shape and structure of complex multidimensional datasets. \\
 
 %WHAT DO I AIM TO USE IT FOR? 
 With this paper, I aim to demonstrate the utility of TDA for exploring economic and financial questions, with a specific focus on treasury yield curve rates. A similar exploration takes place in \cite{gidea_katz_2018} with attention to the equity markets, and we follow their example in our study of rates. Their findings are particularly interesting as they present one of few existing analyses utilizing TDA to explore economic and financial research. Gidea and Katz find a strong rising trend for trading days prior to financial downturns, which implies that TDA may be useful as a new econometric analysis to complement traditional methods. \\
@@ -38,14 +40,28 @@ The remainder of this paper is structured as follows: section \ref{tda} describe
 
 \section{Topological Data Analysis}
 \label{tda}
+
 % HOW DOES TDA WORK? WHAT IS IT AND WHAT ARE ITS MATH? 
+TDA allows for the extraction of new information from high-dimensional, incomplete, and/or complex datasets. It shows promise as an emerging method for providing empirically sound methods for analysis and understanding of the underlying data that can be represented as point clouds in Euclidean space. TDA packages are implemented in a number of languages, including C++, Python, and R. \\ 
 
-% RELEVANT PROPERTIES
+Chazel and Michel \cite{chazal_2017} provide a generalized TDA pipeline that most studies implementing TDA employ: 
+\begin{enumerate}
+	\item The input data is a finite set of points with some distance or similarity metric. In many cases, including this paper, the distance can be induced by the underlying metric space. Given that our dataset exists in $\mathbb{R}$, the Euclidean space is implied.
+	\item Using the point cloud from [1], a "continuous" shape is built on top of the underlying dataset to highlight its shape. This typically takes place through the use of simplicial complexes. 
+	\item Topological or geometric information is inferred from the structures built on the data. 
+	\item The extracted information provides new families of features and descriptions of the data that can be used to better understand the data or be combined with other existing features for modeling.
+\end{enumerate}
 
-% DETAILS OF PREVIOUS APPLICATIONS 
+% What is a metric space and why does it matter for TDA? 
 
-% PROS / CONS of USING TDA
- 
+% How is data represented as a point cloud? 
+
+The standard topological descriptors are the barcode and the persistence diagram, which provide a multiscale representation of the homology of the geometric construction. Homology in degree 0 describes the connectedness of the data; degree 1 detects holes or tunnels; degree 2 captures voids, etc.  \cite{bubenik_2015}. Features that \textit{persist} when the resolution changes are referred to as persistent homology. 
+
+% How are simplicial complexes built on data?  
+
+% What are persistence landscapes? 
+
 \section{Treasury Yield Curve Rates} 
 \label{yield}
 
@@ -68,6 +84,16 @@ The remainder of this paper is structured as follows: section \ref{tda} describe
 \label{data}
 
 % DESCRIPTIVE STATS
+The dataset analyzed in this study was retrieved from the US Treasury \footnote{https://www.treasury.gov/resource-center/data-chart-center/interest-rates} and contains daily yield curve rates data from January 2, 2015 to December 31, 2020 for a number of different maturities: 1 mo, 3 mo, 6 mo, 1 year, 2 yr, 3 yr, 5 yr, 7 yr, 10 yr, 20 yr, and 30 yr. \\
+
+The time series are visualized below in Figure %\ref{fig:linePlotRates}
+, with our shortest and longest maturities highlighted. 
+
+\begin{figure}[]
+	\centering
+	\includegraphics[scale=0.35]{C:/Users/cshul/Desktop/research/topological\_data\_analysis\_of\_treasury\_yield\_curve\_rates/data/treasuryRatesVis.png}
+	\label{fig:linePlotRates}
+\end{figure}
 
 % DESCRIPTION OF DATA / SOURCES
 
@@ -97,6 +123,3 @@ The remainder of this paper is structured as follows: section \ref{tda} describe
 \bibliography{refs}
 
 \end{document}
-
-
-% \textbf{Data Source}: https://www.treasury.gov/resource-center/data-chart-center/interest-rates/pages/textview.aspx?data=yield

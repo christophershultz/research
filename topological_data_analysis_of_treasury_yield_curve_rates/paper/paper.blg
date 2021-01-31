@@ -9,32 +9,10 @@ Repeated entry---line 28 of file refs.bib
  : @article{wasserman_2018
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 146 of file refs.bib
+Repeated entry---line 145 of file refs.bib
  : @article{arai_et_al_2014
  :                         ,
 I'm skipping whatever remains of this entry
-Name 1 in "Chen, Y. Ho, S., Freeman, P., Genovese, C., and Wasserman, L." has a comma at the end for entry chen_et_al_2015
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Chen, Y. Ho, S., Freeman, P., Genovese, C., and Wasserman, L." for entry chen_et_al_2015
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Chen, Y. Ho, S., Freeman, P., Genovese, C., and Wasserman, L." for entry chen_et_al_2015
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Chen, Y. Ho, S., Freeman, P., Genovese, C., and Wasserman, L." for entry chen_et_al_2015
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Chen, Y. Ho, S., Freeman, P., Genovese, C., and Wasserman, L." for entry chen_et_al_2015
-while executing---line 1049 of file plain.bst
-Name 1 in "Van de Weygaert, R., Platen, E., Vegter, G., Eldering, B., and Kruithof, N." has a comma at the end for entry van_de_weygaert_et_al_2010
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Van de Weygaert, R., Platen, E., Vegter, G., Eldering, B., and Kruithof, N." for entry van_de_weygaert_et_al_2010
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Van de Weygaert, R., Platen, E., Vegter, G., Eldering, B., and Kruithof, N." for entry van_de_weygaert_et_al_2010
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Van de Weygaert, R., Platen, E., Vegter, G., Eldering, B., and Kruithof, N." for entry van_de_weygaert_et_al_2010
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Van de Weygaert, R., Platen, E., Vegter, G., Eldering, B., and Kruithof, N." for entry van_de_weygaert_et_al_2010
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Van de Weygaert, R., Platen, E., Vegter, G., Eldering, B., and Kruithof, N." for entry van_de_weygaert_et_al_2010
-while executing---line 1049 of file plain.bst
 Name 1 in "Van de Weygaert, R., Vegter, G., Edelsbrunner, H., Jones, B., Pranav, P., Gavrilova, M., Tan, C., and Mostafavi, M." has a comma at the end for entry van_de_weygaert_et_al_2011
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Van de Weygaert, R., Vegter, G., Edelsbrunner, H., Jones, B., Pranav, P., Gavrilova, M., Tan, C., and Mostafavi, M." for entry van_de_weygaert_et_al_2011
@@ -86,6 +64,36 @@ while executing---line 1049 of file plain.bst
 Name 1 in "Adcock, A., Rubin, D., and Carlsson, G." has a comma at the end for entry adcock_et_al_2014
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Adcock, A., Rubin, D., and Carlsson, G." for entry adcock_et_al_2014
+while executing---line 1049 of file plain.bst
+Name 1 in "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." has a comma at the end for entry guo_et_al_2020
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Qiu, W., Rudkin, S. and Dlotko, P." for entry qiu_et_al_2020
+while executing---line 1049 of file plain.bst
+Name 1 in "Dlotko, P., Qiu, W., and Rudkin, S." has a comma at the end for entry dlotko_et_al_2019
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Dlotko, P., Qiu, W., and Rudkin, S." for entry dlotko_et_al_2019
+while executing---line 1049 of file plain.bst
+Name 1 in "Kim, W., Kim, Y., Lee, G., and Kook, W." has a comma at the end for entry kim_et_al_2020
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Kim, W., Kim, Y., Lee, G., and Kook, W." for entry kim_et_al_2020
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Kim, W., Kim, Y., Lee, G., and Kook, W." for entry kim_et_al_2020
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Kim, W., Kim, Y., Lee, G., and Kook, W." for entry kim_et_al_2020
 while executing---line 1049 of file plain.bst
 Name 1 in "Arai, M., Brandt, V., and Dabaghian, Y." has a comma at the end for entry arai_et_al_2014
 while executing---line 1049 of file plain.bst
@@ -147,25 +155,50 @@ while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "Carriere, M., Oudot, S., and Ovsjanikov, M." for entry carriere_et_al_2015
 while executing---line 1090 of file plain.bst
 Warning--empty journal in carriere_et_al_2015
-Name 1 in "Chen, Y. Ho, S., Freeman, P., Genovese, C., and Wasserman, L." has a comma at the end for entry chen_et_al_2015
-while executing---line 1090 of file plain.bst
-Too many commas in name 1 of "Chen, Y. Ho, S., Freeman, P., Genovese, C., and Wasserman, L." for entry chen_et_al_2015
-while executing---line 1090 of file plain.bst
-Too many commas in name 1 of "Chen, Y. Ho, S., Freeman, P., Genovese, C., and Wasserman, L." for entry chen_et_al_2015
-while executing---line 1090 of file plain.bst
-Too many commas in name 1 of "Chen, Y. Ho, S., Freeman, P., Genovese, C., and Wasserman, L." for entry chen_et_al_2015
-while executing---line 1090 of file plain.bst
-Too many commas in name 1 of "Chen, Y. Ho, S., Freeman, P., Genovese, C., and Wasserman, L." for entry chen_et_al_2015
-while executing---line 1090 of file plain.bst
 Warning--empty journal in chen_et_al_2015
+Warning--empty journal in van_de_weygaert_et_al_2010
+Name 1 in "Dlotko, P., Qiu, W., and Rudkin, S." has a comma at the end for entry dlotko_et_al_2019
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Dlotko, P., Qiu, W., and Rudkin, S." for entry dlotko_et_al_2019
+while executing---line 1090 of file plain.bst
 Warning--empty journal in gidea_2016
 Warning--empty journal in gidea_katz_2018
+Name 1 in "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." has a comma at the end for entry guo_et_al_2020
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Guo, H., Xia, S., An, Q., Zhang, X., Sun, W., and Zhao, X." for entry guo_et_al_2020
+while executing---line 1090 of file plain.bst
+Warning--empty journal in guo_et_al_2020
+Name 1 in "Kim, W., Kim, Y., Lee, G., and Kook, W." has a comma at the end for entry kim_et_al_2020
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Kim, W., Kim, Y., Lee, G., and Kook, W." for entry kim_et_al_2020
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Kim, W., Kim, Y., Lee, G., and Kook, W." for entry kim_et_al_2020
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Kim, W., Kim, Y., Lee, G., and Kook, W." for entry kim_et_al_2020
+while executing---line 1090 of file plain.bst
+Warning--empty journal in kim_et_al_2020
 Name 1 in "Li, C., Ovsjanikov, M., and Chazal, F." has a comma at the end for entry li_et_al_2014
 while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "Li, C., Ovsjanikov, M., and Chazal, F." for entry li_et_al_2014
 while executing---line 1090 of file plain.bst
 Warning--empty journal in li_et_al_2014
+Warning--empty journal in majumdar_laha_2020
 Warning--empty journal in munch_2017
+Too many commas in name 1 of "Qiu, W., Rudkin, S. and Dlotko, P." for entry qiu_et_al_2020
+while executing---line 1090 of file plain.bst
+Warning--empty journal in qiu_et_al_2020
 Too many commas in name 1 of "Singh, N., Couture, H., Marron, J., Perou, C. and Niethammer, M." for entry singh_et_al_2014
 while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "Singh, N., Couture, H., Marron, J., Perou, C. and Niethammer, M." for entry singh_et_al_2014
@@ -178,19 +211,6 @@ Too many commas in name 1 of "Singh, N., Couture, H., Marron, J., Perou, C. and 
 while executing---line 1090 of file plain.bst
 Warning--empty journal in singh_et_al_2014
 Warning--empty journal in sousbie_2011
-Name 1 in "Van de Weygaert, R., Platen, E., Vegter, G., Eldering, B., and Kruithof, N." has a comma at the end for entry van_de_weygaert_et_al_2010
-while executing---line 1090 of file plain.bst
-Too many commas in name 1 of "Van de Weygaert, R., Platen, E., Vegter, G., Eldering, B., and Kruithof, N." for entry van_de_weygaert_et_al_2010
-while executing---line 1090 of file plain.bst
-Too many commas in name 1 of "Van de Weygaert, R., Platen, E., Vegter, G., Eldering, B., and Kruithof, N." for entry van_de_weygaert_et_al_2010
-while executing---line 1090 of file plain.bst
-Too many commas in name 1 of "Van de Weygaert, R., Platen, E., Vegter, G., Eldering, B., and Kruithof, N." for entry van_de_weygaert_et_al_2010
-while executing---line 1090 of file plain.bst
-Too many commas in name 1 of "Van de Weygaert, R., Platen, E., Vegter, G., Eldering, B., and Kruithof, N." for entry van_de_weygaert_et_al_2010
-while executing---line 1090 of file plain.bst
-Too many commas in name 1 of "Van de Weygaert, R., Platen, E., Vegter, G., Eldering, B., and Kruithof, N." for entry van_de_weygaert_et_al_2010
-while executing---line 1090 of file plain.bst
-Warning--empty journal in van_de_weygaert_et_al_2010
 Name 1 in "Van de Weygaert, R., Vegter, G., Edelsbrunner, H., Jones, B., Pranav, P., Gavrilova, M., Tan, C., and Mostafavi, M." has a comma at the end for entry van_de_weygaert_et_al_2011
 while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "Van de Weygaert, R., Vegter, G., Edelsbrunner, H., Jones, B., Pranav, P., Gavrilova, M., Tan, C., and Mostafavi, M." for entry van_de_weygaert_et_al_2011
@@ -217,45 +237,45 @@ Too many commas in name 1 of "Van de Weygaert, R., Vegter, G., Edelsbrunner, H.,
 while executing---line 1090 of file plain.bst
 Warning--empty journal in van_de_weygaert_et_al_2011
 Warning--empty journal in wasserman_2018
-You've used 19 entries,
+You've used 25 entries,
             2118 wiz_defined-function locations,
-            589 strings with 6490 characters,
-and the built_in function-call counts, 5407 in all, are:
-= -- 517
-> -- 217
+            612 strings with 7328 characters,
+and the built_in function-call counts, 7029 in all, are:
+= -- 660
+> -- 325
 < -- 0
-+ -- 89
-- -- 66
-* -- 339
-:= -- 920
-add.period$ -- 54
-call.type$ -- 19
-change.case$ -- 90
++ -- 132
+- -- 102
+* -- 436
+:= -- 1211
+add.period$ -- 70
+call.type$ -- 25
+change.case$ -- 126
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 195
-empty$ -- 458
-format.name$ -- 66
-if$ -- 1120
+cite$ -- 45
+duplicate$ -- 249
+empty$ -- 570
+format.name$ -- 102
+if$ -- 1441
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 16
-newline$ -- 95
-num.names$ -- 38
-pop$ -- 105
+int.to.str$ -- 25
+missing$ -- 20
+newline$ -- 123
+num.names$ -- 50
+pop$ -- 153
 preamble$ -- 1
-purify$ -- 71
+purify$ -- 101
 quote$ -- 0
-skip$ -- 151
+skip$ -- 202
 stack$ -- 0
-substring$ -- 372
-swap$ -- 3
+substring$ -- 403
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
-warning$ -- 16
-while$ -- 52
-width$ -- 21
-write$ -- 186
-(There were 96 error messages)
+type$ -- 100
+warning$ -- 20
+while$ -- 64
+width$ -- 27
+write$ -- 241
+(There were 104 error messages)
