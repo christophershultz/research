@@ -2,14 +2,14 @@ import pandas as pd
 import numpy as np
 import os, pdb
 
-path = {'fert': os.getcwd() + '\\raw_data\\county_fertilizer_panel.csv',
-        'fuel': os.getcwd() + '\\raw_data\\county_fuel_panel.csv',
-        'labo': os.getcwd() + '\\raw_data\\county_labor_panel.csv',
-        'land': os.getcwd() + '\\raw_data\\county_land_panel.csv',
-        'mach': os.getcwd() + '\\raw_data\\county_machinery_panel.csv',
-        'neti': os.getcwd() + '\\raw_data\\county_net_income_panel.csv',
-        'trac': os.getcwd() + '\\raw_data\\county_tractors_panel.csv',
-        'truc': os.getcwd() + '\\raw_data\\county_trucks_panel.csv'}
+path = {'fert': os.getcwd() + '\\spatialAg\\raw_data\\county_fertilizer_panel.csv',
+        'fuel': os.getcwd() + '\\spatialAg\\raw_data\\county_fuel_panel.csv',
+        'labo': os.getcwd() + '\\spatialAg\\raw_data\\county_labor_panel.csv',
+        'land': os.getcwd() + '\\spatialAg\\raw_data\\county_land_panel.csv',
+        'mach': os.getcwd() + '\\spatialAg\\raw_data\\county_machinery_panel.csv',
+        'neti': os.getcwd() + '\\spatialAg\\raw_data\\county_net_income_panel.csv',
+        'trac': os.getcwd() + '\\spatialAg\\raw_data\\county_tractors_panel.csv',
+        'truc': os.getcwd() + '\\spatialAg\\raw_data\\county_trucks_panel.csv'}
 
 def fixStateAnsi(df): 
     new = [] 
@@ -81,12 +81,15 @@ def getLabor(df, name = 'labor'):
     keeps = ['Year', 'State', 'State ANSI', 'County', 'County ANSI', 'Data Item', 'Value']
     te = te[keeps]
     te.columns = [i for i in keeps[:-1]] + [name]
+    
 
+    # Group by Code
     te = fixStateAnsi(te) 
     te = fixCountyAnsi(te)
     te = createUniqueCode(te)
     te = fixValue(te, 'labor')
     te['labor'] = [0 if i == 'nan' else int(i) for i in te['labor']]
+
     te = te[['CODE', 'labor']].groupby(['CODE']).sum()
     df = pd.merge(df, te, how = 'outer', on = 'CODE')
     return df
@@ -136,7 +139,7 @@ def getIncome(df, name = 'netIncome'):
     df = pd.merge(df, te, how = 'outer', on = 'CODE')
     return df   
 
-def getTractors(df, name = 'tractors'): 
+def getTractors(df, name = 'tractors'):
     te = pd.read_csv(path['trac'])
     keeps = ['Year', 'State', 'State ANSI', 'County', 'County ANSI', 'Value']
     te = te[keeps]
@@ -152,7 +155,6 @@ def getTractors(df, name = 'tractors'):
     return df  
 
 def getTrucks(df, name = 'trucks'):
-    pdb.set_trace() 
     te = pd.read_csv(path['truc'])
     keeps = ['Year', 'State', 'State ANSI', 'County', 'County ANSI', 'Value']
     te = te[keeps]
@@ -169,22 +171,23 @@ def getTrucks(df, name = 'trucks'):
 
 def yearFilter(df): 
     df = df[df['Year'] >2002].reset_index().drop(['index'], axis = 1)
+    df = df.drop_duplicates().reset_index().drop(['index'], axis = 1)
+    order = ['CODE', 'Year', 'State', 'State ANSI', 'County', 'County ANSI', 'fertilizer', 'fuel', 'land', 'mach', 'tractors', 'trucks', 'labor', 'netIncome']
+    df = df[order]
+    df.columns = ['code', 'yr', 'st', 'stAnsi', 'cty', 'ctyAnsi', 'fert', 'fuel', 'land', 'mach',
+                  'trac', 'truc', 'labo', 'netInc']
     return df
-
-def imputation(df): 
-    pdb.set_trace()
 
 def main(): 
     df = getFert()
     df = getFuel(df)
-    df = getLabor(df)
     df = getLand(df)
     df = getMach(df)
     df = getIncome(df)
     df = getTractors(df)
     df = getTrucks(df)
+    df = getLabor(df)
     df = yearFilter(df)
-    df = imputation(df)
     df.to_csv('raw_data_county.csv', index = None)
 
 main()

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.14)  31 JAN 2021 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.14)  1 FEB 2021 18:06
 entering extended mode
 **./paper.tex
 (paper.tex
@@ -924,6 +924,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 [1
 
 {C:/Users/cshul/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
 (C:/Users/cshul/Desktop/research/topolRate/data/treasuryRatesVis.pgf) [2]
 [3] (paper.bbl [4
 
@@ -934,7 +943,7 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 Here is how much of TeX's memory you used:
  28434 strings out of 480236
  702938 string characters out of 2880557
- 1492060 words of memory out of 3000000
+ 1492109 words of memory out of 3000000
  44475 multiletter control sequences out of 15000+200000
  544263 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -958,7 +967,7 @@ nts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/cshul/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cshul/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/cshul/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on paper.pdf (5 pages, 288664 bytes).
+Output written on paper.pdf (5 pages, 288607 bytes).
 PDF statistics:
  221 PDF objects out of 1000 (max. 8388607)
  49 named destinations out of 1000 (max. 500000)

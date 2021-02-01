@@ -60,25 +60,25 @@ Chazel and Michel \cite{chazal_2017} provide a generalized TDA pipeline that mos
 
 % What is a metric space and why does it matter for TDA? 
 
-% How is data represented as a point cloud? 
+\subsection{Persistence Diagrams} 
 
-The standard topological descriptors are the barcode and the persistence diagram, which provide a multiscale representation of the homology of the geometric construction. Homology in degree 0 describes the connectedness of the data; degree 1 detects holes or tunnels; degree 2 captures voids, etc.  \cite{bubenik_2015}. Features that \textit{persist} when the resolution changes are referred to as persistent homology. 
+The persistence diagram can show a great deal of information about a given point cloud as well as describing more complicated structure, loops, and voids that are not visible with other methods \cite{munch_2017}. Homology in degree 0 describes the connectedness of the data; degree 1 detects holes or tunnels; degree 2 captures voids, etc.  \cite{bubenik_2015}. Features that \textit{persist} when the resolution changes are referred to as \textbf{persistent homology}. \\
 
-With our collection of data in $\mathbb{E}$, we use the point cloud as the vertices of a combinatorial graph whose edges are determined by proximity. While this approach allows for useful clustering, a number of additional higher order features are ignored under this structure. Additional features can be accurately derived by thinking of the graph as a scaffold for a higher-dimensional object. Specifically, one completes the graph to a simplicial complex - a space built from simple pieces (simplicies) identified combinatorially along faces. One way to fill the higher dimensional simplicies of the proximity graph is below: 
-
-\textbf{Definition 1}: Given a collection of points ${x_\alpha} \in \mathbb{E}^n$, the \textbf{Rips Complex}, $\mathcal{R_\epsilon}$ is the abstract simplicial complex whoes k-simplices correspond to unordered $(k+1)$-tuples of points ${x_\alpha}$ $k \choose 0$, which are pairwise within distance $\epsilon$. 
+% What is a persistence diagram? 
 
 \subsection{Simplicial Complexes} 
+
+With our collection of data in $\mathbb{E}$, we use the point cloud as the vertices of a combinatorial graph whose edges are determined by proximity. While this approach allows for useful clustering, a number of additional higher order features are ignored under this structure. Additional features can be accurately derived by thinking of the graph as a scaffold for a higher-dimensional object. Specifically, one completes the graph to a simplicial complex - a space built from simple pieces (simplicies) identified combinatorially along faces. 
+
+The next task is to build a useful simplicial complex that represents the structure of the data and which uses the original data as the vertex set. The Vietoris-Rips complex for parameter $t$ is constructed as follows: the vertex set is given by the data itself; For each pair of points $x,y$ in the dataset, we include the edge $xy$ if the distance between them is at most $t:d(x,y)\leq t$. For a higher dimensional simplex given by vertices $x_0, \cdots x_d$, we include the simplex if the complex has all possible edges; explicitly, this means that every vertex $x_0, \cdots x_d$ is within distance $t$ of every other vertex in the simplex. 
+
+\textbf{Definition 1}: Given a collection of points ${x_\alpha} \in \mathbb{E}^n$, the \textbf{Rips Complex}, $\mathcal{R_\epsilon}$ is the abstract simplicial complex whose k-simplices correspond to unordered $(k+1)$-tuples of points ${x_\alpha}$ $k \choose 0$, which are pairwise within distance $\epsilon$. 
+
+The Rips complex is particularly useful for seeing structure in the data as long as the connectivity parameter $t$ is chosen well. The best way to choose $t$ is to look at the continuum of possible $t$ values and explore what appears in terms of structure. 
 
 \subsection{Barcodes} 
 
 After conversion of our data set into a family of simplicial complexes, we view these topological objects via a theory of persistent homology that is encoded in the form of a Betti number: a \textbf{barcode} \cite{ghrist_2007}. 
-
-\subsection{Persistence Diagrams} 
-
-% How are simplicial complexes built on data?  
-
-% What are persistence landscapes? 
 
 \section{Treasury Yield Curve Rates} 
 \label{yield}
