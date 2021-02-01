@@ -52,7 +52,7 @@ TDA allows for the extraction of new information from high-dimensional, incomple
 
 Chazel and Michel \cite{chazal_2017} provide a generalized TDA pipeline that most studies implementing TDA employ: 
 \begin{enumerate}
-	\item The input data is a finite set of points with some distance or similarity metric. In many cases, including this paper, the distance can be induced by the underlying metric space. Given that our dataset exists in $\mathbb{R}$, the Euclidean space is implied.
+	\item The input data is a finite set of points with some distance or similarity metric. In many cases, including this paper, the distance can be induced by the underlying metric space. Typically, data is represented as a series of points in a Euclidean n-dimensional space $\mathbb{E}^n$ \cite{ghrist_2007}. 
 	\item Using the point cloud from [1], a "continuous" shape is built on top of the underlying dataset to highlight its shape. This typically takes place through the use of simplicial complexes. 
 	\item Topological or geometric information is inferred from the structures built on the data. 
 	\item The extracted information provides new families of features and descriptions of the data that can be used to better understand the data or be combined with other existing features for modeling.
@@ -63,6 +63,18 @@ Chazel and Michel \cite{chazal_2017} provide a generalized TDA pipeline that mos
 % How is data represented as a point cloud? 
 
 The standard topological descriptors are the barcode and the persistence diagram, which provide a multiscale representation of the homology of the geometric construction. Homology in degree 0 describes the connectedness of the data; degree 1 detects holes or tunnels; degree 2 captures voids, etc.  \cite{bubenik_2015}. Features that \textit{persist} when the resolution changes are referred to as persistent homology. 
+
+With our collection of data in $\mathbb{E}$, we use the point cloud as the vertices of a combinatorial graph whose edges are determined by proximity. While this approach allows for useful clustering, a number of additional higher order features are ignored under this structure. Additional features can be accurately derived by thinking of the graph as a scaffold for a higher-dimensional object. Specifically, one completes the graph to a simplicial complex - a space built from simple pieces (simplicies) identified combinatorially along faces. One way to fill the higher dimensional simplicies of the proximity graph is below: 
+
+\textbf{Definition 1}: Given a collection of points ${x_\alpha} \in \mathbb{E}^n$, the \textbf{Rips Complex}, $\mathcal{R_\epsilon}$ is the abstract simplicial complex whoes k-simplices correspond to unordered $(k+1)$-tuples of points ${x_\alpha}$ $k \choose 0$, which are pairwise within distance $\epsilon$. 
+
+\subsection{Simplicial Complexes} 
+
+\subsection{Barcodes} 
+
+After conversion of our data set into a family of simplicial complexes, we view these topological objects via a theory of persistent homology that is encoded in the form of a Betti number: a \textbf{barcode} \cite{ghrist_2007}. 
+
+\subsection{Persistence Diagrams} 
 
 % How are simplicial complexes built on data?  
 

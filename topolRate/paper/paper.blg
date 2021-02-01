@@ -237,45 +237,45 @@ Too many commas in name 1 of "Van de Weygaert, R., Vegter, G., Edelsbrunner, H.,
 while executing---line 1090 of file plain.bst
 Warning--empty journal in van_de_weygaert_et_al_2011
 Warning--empty journal in wasserman_2018
-You've used 25 entries,
+You've used 26 entries,
             2118 wiz_defined-function locations,
-            612 strings with 7328 characters,
-and the built_in function-call counts, 7029 in all, are:
-= -- 660
-> -- 325
+            619 strings with 7445 characters,
+and the built_in function-call counts, 7293 in all, are:
+= -- 687
+> -- 332
 < -- 0
-+ -- 132
-- -- 102
-* -- 436
-:= -- 1211
-add.period$ -- 70
-call.type$ -- 25
-change.case$ -- 126
++ -- 135
+- -- 104
+* -- 452
+:= -- 1257
+add.period$ -- 73
+call.type$ -- 26
+change.case$ -- 130
 chr.to.int$ -- 0
-cite$ -- 45
-duplicate$ -- 249
-empty$ -- 570
-format.name$ -- 102
-if$ -- 1441
+cite$ -- 46
+duplicate$ -- 260
+empty$ -- 594
+format.name$ -- 104
+if$ -- 1497
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 20
-newline$ -- 123
-num.names$ -- 50
-pop$ -- 153
+int.to.str$ -- 26
+missing$ -- 21
+newline$ -- 128
+num.names$ -- 52
+pop$ -- 155
 preamble$ -- 1
-purify$ -- 101
+purify$ -- 104
 quote$ -- 0
-skip$ -- 202
+skip$ -- 209
 stack$ -- 0
-substring$ -- 403
-swap$ -- 5
+substring$ -- 423
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
+type$ -- 104
 warning$ -- 20
-while$ -- 64
-width$ -- 27
-write$ -- 241
+while$ -- 67
+width$ -- 28
+write$ -- 252
 (There were 104 error messages)

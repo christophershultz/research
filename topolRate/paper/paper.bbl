@@ -66,6 +66,11 @@ Qiu~W. Dlotko, P. and S.~Rudkin.
 \newblock Financial ratios and stock returns reappraised through a topological
   data analysis lens, 2019.
 
+\bibitem{ghrist_2007}
+R.~Ghrist.
+\newblock Barcodes: The persistent topology of data.
+\newblock {\em Bulletin of the American Mathematical Society}, 45:61--75, 2007.
+
 \bibitem{gidea_2016}
 M.~Gidea.
 \newblock Topological data analysis of critical transitions in financial
@@ -123,7 +128,7 @@ T.~Sousbie.
 \newblock 414:350--383, 2011.
 
 \bibitem{van_de_weygaert_et_al_2011}
-Vegter G. Edelsbrunner H. Jones B. Pranav P.-Gavrilova M. Tan~C. Van~de
+Vegter G. Edelsbrunner H. Jones B. Pranav P. Gavrilova M. Tan~C. Van~de
   Weygaert, R. and M.~Mostafavi.
 \newblock Alpha, betti, and the megasparsec universe: on the topology of the
   cosmic web.

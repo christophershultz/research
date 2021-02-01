@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.14)  31 JAN 2021 18:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.14)  31 JAN 2021 19:09
 entering extended mode
 **./paper.tex
 (paper.tex
@@ -929,14 +929,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
 ]) [5] (paper.aux)
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: FA5E13F8FA603937BAECCE71EF38A4B4;340.
+(rerunfilecheck)             Checksum: 8169B386B9FDF1A9ADA32D329AEF3E34;536.
  ) 
 Here is how much of TeX's memory you used:
- 28425 strings out of 480236
- 702804 string characters out of 2880557
- 1493447 words of memory out of 3000000
- 44470 multiletter control sequences out of 15000+200000
- 543956 words of font info for 63 fonts, out of 3000000 for 9000
+ 28434 strings out of 480236
+ 702938 string characters out of 2880557
+ 1492060 words of memory out of 3000000
+ 44475 multiletter control sequences out of 15000+200000
+ 544263 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,8n,105p,895b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/cshul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -944,20 +944,23 @@ cmbx10.pfb><C:/Users/cshul/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/cshul/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmbx9.pfb><C:/Users/cshul/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/cshul/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/cshul/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/cshul/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/cshul
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Use
-rs/cshul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb>
-<C:/Users/cshul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r7.pfb><C:/Users/cshul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><C:/Users/cshul/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr9.pfb><C:/Users/cshul/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmti10.pfb><C:/Users/cshul/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on paper.pdf (5 pages, 250645 bytes).
+iKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/cshul/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/cshul/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/cshu
+l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
+ers/cshul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pf
+b><C:/Users/cshul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr17.pfb><C:/Users/cshul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr6.pfb><C:/Users/cshul/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb><C:/Users/cshul/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><C:/Users/cshul/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/cshul/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cshul/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/cshul/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on paper.pdf (5 pages, 288664 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 221 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
